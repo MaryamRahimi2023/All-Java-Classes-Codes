@@ -1,0 +1,40 @@
+
+Operators:
+are different symbols that we can use to perform day to day operations like addition.
+we can compare things if two entities are same or not if not a number is greater than the other number or not.
+There are three main types of operators. 3)Logical
+1) Arithmetic: we use these operators to perform simple math operations. like +,_...etc
+ + ==> Addition
+ - ==> Subtraction
+ / ==> Division
+ * ==> Multiplication
+ % ==> Modulus, Reminder
+
+2) Relational: There used to compare two quantities or entities. like if something is bigger
+than other thing of if two number are same or not or if two boolean variables contain same values or not.
+== ==> equal, used to check if two variables contain the same value or not, so computer will write us true otherwise false
+!= ==> not equal, used to check if two variables not equal or not contain the same value. we will get true if they are not the same.
+> ==>  greater, used to check if one value is greater than other value or not, if greater we will get true
+< ==>  lessen, opposite of > used to check if the value on the left is smaller than the value on right side we will get true if yes.
+>= ==> greater and equal, if the values on left is greater than the value on right side or if they are same we will get a true.
+<= ==> lessen and equal to, opposite of >= and used to check if a value is less than or equal to other value.
+
+Conditional Constructs: used to write conditional codes, a piece of code that execute based on a condition.
+if the condition is true java will print the code otherwise it skips that code.
+How to write IfElse conditions:IfElse conditions. works based on regional operators.
+if(condition){ any line of codes you want java to print}
+
+if(condition){ we can put one if condition inside another if condition.
+sout(any line of codes you want java to print)}
+if(condition){sout (any line of codes you want java to print)}
+
+If else conditions
+when we I have to test the same variable for multipal conditions I should use if else If
+when we I have multipal conditions and these conditions are depend on each other Nested if condition
+
+Important Notes:
+1) for string we use equals method instead of == sign because it is a non-primitive data type
+2) we can ctrl+alt+l for windows to format our codes for mac cmd+opt+l
+3) if we are confused about brackets we can click on opening or closing part to check the other part
+
+
