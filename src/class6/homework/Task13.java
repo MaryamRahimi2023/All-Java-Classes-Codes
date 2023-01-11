@@ -10,13 +10,13 @@ public class Task13 {
 
         while(number<50){
             if(number%2==1)
-            System.out.println(number+" ");
+            System.out.print(number+" ");
             number++;
             }
         System.out.println("");
         int number1=21;
         while (number1<50) {
-            System.out.println(number1);
+            System.out.print(number1+" ");
             number1+=2;
         }
     }

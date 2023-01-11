@@ -9,7 +9,7 @@ public class Task11 {
         int number=100;
 
         while(number>=1){
-            System.out.println(number);
+            System.out.print(number+" ");
             number--;
             }
     }
