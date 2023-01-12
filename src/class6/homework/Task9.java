@@ -12,11 +12,12 @@ public class Task9 {
         int day=1;
 
         while(workDay){
-            System.out.println("I need a day off");
-            if(day==6){
-                workDay=false;
+            if(day<=5) {
+                System.out.println("I need a day off");
+            }else {
                 System.out.println("I do not need a day off any more");
-            } day++;
+                workDay=false;
+            } day++; // it is equal to day=day+1 and day+1
         }
 
 
