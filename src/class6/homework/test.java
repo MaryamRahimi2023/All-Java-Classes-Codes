@@ -2,25 +2,17 @@ package class6.homework;
 
 public class test {
     public static void main(String[] args) {
+// program to print sum of all odd && even numbers from 0 100 sepreatly
 
-        double discount;
-        char code = 'C' ;
+        int i;
+        int sum=0;
 
-        switch ( code ) {
-            case 'A':
-                discount = 0.0;
-
-            case 'B':
-                discount = 0.1;
-
-            case 'C':
-                discount = 0.2;
-
-            default:
-                discount = 0.3;
+        for (i=0; i<101; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
         }
-
-
+            System.out.println(sum);
 
     }
 }
