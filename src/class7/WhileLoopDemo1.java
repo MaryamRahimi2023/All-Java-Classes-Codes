@@ -2,7 +2,7 @@ package class7;
 
 import java.util.Scanner;
 
-public class DoWhileLoop1 {
+public class WhileLoopDemo1 {
     public static void main(String[] args) {
 
         Scanner scan=new Scanner(System.in);
