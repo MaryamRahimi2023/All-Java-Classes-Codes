@@ -14,18 +14,21 @@ public class Task3 {
         int start=scan.nextInt();
         System.out.println("Please enter a number to end a range: ");
         int end= scan.nextInt();
-
+// also can write this way -----> System.out.println("Please Enter two Numbers starting point and ending point");
         int SumEven=0; int SumOdd=0;
 
+        System.out.println("start "+start+" end "+end+" ");
+
         for (int i = start; i <=end ; i++) {
-            System.out.print(i+" ");
             if (i%2==0){
-                SumEven+=i;
+                //System.out.println("Even number "+i);
+                SumEven+=i;// also can be written like this sumeven=sumeven+i
             }else if (i%2==1){
-                SumOdd+=i;
+                SumOdd+=i;// can also be written like this oddsum+=i
+                //System.out.println("Odd number "+i);
 
             }
-            System.out.println();
+
         }
         System.out.println("Sum of Even numbers: "+SumEven);
         System.out.println("Sum of Odd numbers: "+SumOdd);

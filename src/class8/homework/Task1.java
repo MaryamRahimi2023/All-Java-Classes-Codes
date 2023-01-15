@@ -12,7 +12,11 @@ public class Task1 {
             }System.out.print(i+" ");
 
         }
-
+         // 2nd way
+        /*for (int i = 1; i <=50 ; i++) {
+            if (i % 3 != 0) {
+                System.out.print(i + " ");
+            }*/
 
     }
 }
