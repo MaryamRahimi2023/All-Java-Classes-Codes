@@ -16,22 +16,16 @@ public class Task6 {
          **
          *                    */
 
-        for (int i = 1; i <= 2; i++) {
-            for (int j = 1; j <= 1; j++) {
+        for (int i = 1; i <=9 ; i++) {
+            if(i%2!=0) {
                 System.out.println("*");
+            }else if (i==6 || i==8) {
+                System.out.println("**");
+
+            }else if (i%2==0){
+                System.out.println(" ");
             }
-            System.out.println();
         }
-
-        for (int i = 1; i <= 3; i++) {
-            for (int j = 1; j <= 1; j++) {
-                System.out.println("*");
-
-            }
-            System.out.println("**");
-
-        }
-        System.out.println("*");
 
     }
 }

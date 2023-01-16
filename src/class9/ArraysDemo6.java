@@ -15,7 +15,7 @@ public class ArraysDemo6 {
         int sum=0;
         for (int i = 0; i < numbers.length; i++) {// as per index number= 0,1,2,3,4,5,6,7
             // so the values inside 0,2,4,6 is counted as even
-            // sum+=sum(numbers[i] give us the total of all numbers
+            // sum+=numbers[i] give us the total of all numbers
             if (i%2==0){// only the indexes which are multiple of 2 will process here not the numbers which are multiple of 2
                 sum+=numbers[i];
             }
@@ -29,7 +29,7 @@ public class ArraysDemo6 {
         int Sum=0;
         int [] arr={10,20,30,4,5,6,7,80};
         for (int i = 0; i < arr.length; i++) {
-            // sum+=sum(numbers[i] give us the total of all numbers
+            // sum+=numbers[i] give us the total of all numbers
             if (arr[i]%2==0){// here the inside value of the arrays if multiply by 2 will be added
                 Sum+=arr[i];
             }
