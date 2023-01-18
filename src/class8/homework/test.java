@@ -1,29 +1,35 @@
 package class8.homework;
 
+
+import java.util.Scanner;
+
 public class test {
     public static void main(String[] args) {
 
-        String [] country = {"Ukraine", "United Kingdom", "Uruguay", "Uganda", "Uzbekistan", "USA"};
-        String [] capital = {"Kyiv", "London", "Montevideo", "Kampala", "Tashkent", "Washington, D.C."};
+      /*  for (int i = 1; i <=5 ; i++) {
+            if (i==1) {
+                System.out.println("***   *      *   *");
+            } else if (i==5) {
+                System.out.println("***   ****   *****");
+            }else {
+                System.out.println(" *    *      *   *");
+            }*/
 
-        for (int i = 0; i < country.length; i++) {
-            System.out.println("The capital of "+country[i]+" is "+capital[i]);
+            Scanner scan=new Scanner(System.in);
+
+            int [] number=new int[5];
+
+            for (int i = 0; i < number.length; i++) {
+                number[i]=scan.nextInt()*10;
+            }
+        for (int i = 0; i < number.length; i++) {
+            System.out.println(number[i]);
 
         }
 
-        //String[] country={"South Korea","Japan","France","Peru","Italy"};
+        }
 
-       /* switch (country[3]){
-            case "South Korea" :
-                System.out.println("Captital city of "+country[0]+" is Seoul");break;
-            case "Japan" :
-                System.out.println("Captital city of "+country[1]+" is Tokyo");break;
-            case "France" :
-                System.out.println("Captital city of "+country[2]+" is Paris");break;
-            case "Peru" :
-                System.out.println("Captital city of "+country[3]+" is Lima");break;
-            default:
-                System.out.println("Captital city of "+country[4]+" is Rome");*/
 
-    }
+
+
 }
