@@ -1,4 +1,4 @@
-package class8.homework;
+package Project1;
 
 
 import java.util.Scanner;
@@ -15,17 +15,12 @@ public class test {
                 System.out.println(" *    *      *   *");
             }*/
 
-            Scanner scan=new Scanner(System.in);
 
-            int [] number=new int[5];
 
-            for (int i = 0; i < number.length; i++) {
-                number[i]=scan.nextInt()*10;
-            }
-        for (int i = 0; i < number.length; i++) {
-            System.out.println(number[i]);
 
-        }
+
+
+
 
         }
 

@@ -7,6 +7,8 @@ public class Task6 {
         While retrieving all values from an array print capital for each country choose any five countries.
         */
 
+
+
         String[] country= {"Japan","China","Nepal","Malaysia","Korea","Russia"};
 
         for (int i = 0; i < country.length; i++) {
