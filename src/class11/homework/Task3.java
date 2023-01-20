@@ -16,10 +16,13 @@ public class Task3 {
 
         for (int i = 0; i < groceryList.length; i++) {
             for (int j = 0; j < groceryList[i].length; j++) {
-                System.out.println(groceryList[i][j]);
+                System.out.print(groceryList[i][j]+" ");
             }
             System.out.println();
         }
+
+        System.out.println("____________________");
+
         for (String [] list:groceryList) {
             for (String item:list) {
                 System.out.print(item+" ");

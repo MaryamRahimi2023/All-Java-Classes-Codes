@@ -21,9 +21,11 @@ public class Task2 {
             System.out.println();
         }
 
+        System.out.println("_______________________");
+
         for (String[] sum:cars){
             for (String brand:sum) {
-                System.out.println(brand+" ");
+                System.out.print(brand+" ");
 
             }
             System.out.println();
