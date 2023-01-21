@@ -10,50 +10,65 @@ public class Task2 {
             retrieve all values from it and while retrieving those values print capital for each country. (use 2 different loops). */
 
         Scanner scan=new Scanner(System.in);
-        System.out.println("How many countries are in South America?");
+        System.out.println("How many countries do you know in South America?");
 
         int size= scan.nextInt();
 
         String [] country=new String[size];
-        String [] capital=new String[size];
 
-        System.out.println("Please enter name of these countries:");
-
-        for (int i = 0; i < size; i++) {
-            country[i]=scan.nextLine();
-        }
+        System.out.println("Please enter name of these " +size+" countries:");
 
         for (int i = 0; i < country.length; i++) {
-            country[i]=scan.nextLine();
+            System.out.print("");
+            country[i]=scan.next();
+        }
+        System.out.println(Arrays.toString((country)));
+
+        for (int i = 0; i < size; i++) {
+
             switch (country[i].toLowerCase()) {
                     case "argentina":
                         System.out.println("The capital of "+country[i] + " is Buenos Aires");
+                        break;
                     case "bolivia":
                         System.out.println("The capital of "+country[i] + " is La Paz");
+                        break;
                     case "brazil":
                         System.out.println("The capital of "+country[i] + " is Brasília");
+                        break;
                     case "chile":
                         System.out.println("The capital of "+country[i] + " is Santiago");
+                        break;
                     case "colombia":
                         System.out.println("The capital of "+country[i] + " is Bogotá");
+                        break;
                     case "cuba":
                         System.out.println("The capital of "+country[i] + " is Havana");
+                        break;
                     case "ecuador":
                         System.out.println("The capital of "+country[i] + " is Quito");
+                        break;
                     case "guyana":
                         System.out.println("The capital of "+country[i] + " is Georgetown");
+                        break;
                     case "paraguay":
                         System.out.println("The capital of "+country[i] + " is Asunción");
+                        break;
                     case "peru":
                         System.out.println("The capital of "+country[i] + " is Lima");
+                        break;
                     case "suriname":
                         System.out.println("The capital of "+country[i] + " is Paramaribo");
+                        break;
                     case "uruguay":
                         System.out.println("The capital of "+country[i] + " is Montevideo");
+                        break;
                     case "venezuela":
                         System.out.println("The capital of "+country[i] + " is Caracas");
+                        break;
                     default:
-                        System.out.println("This country is not a South American country");
+                        System.out.println(country[i]+" is not a South American country");
+
 
             }
 
