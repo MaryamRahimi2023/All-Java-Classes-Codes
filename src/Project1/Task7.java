@@ -17,7 +17,6 @@ public class Task7 {
             if(number%i==0) {
                 isPrimeNumber = false;
                 break;
-
             }
 
         }

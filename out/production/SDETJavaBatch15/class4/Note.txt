@@ -29,8 +29,8 @@ sout(any line of codes you want java to print)}
 if(condition){sout (any line of codes you want java to print)}
 
 If else conditions
-when we I have to test the same variable for multipal conditions I should use if else If
-when we I have multipal conditions and these conditions are depend on each other Nested if condition
+when I have to test the same variable for multipal conditions I should use if else If
+when I have multipal conditions and these conditions are depend on each other Nested if condition
 
 Important Notes:
 1) for string we use equals method instead of == sign because it is a non-primitive data type

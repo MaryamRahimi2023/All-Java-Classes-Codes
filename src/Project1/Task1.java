@@ -22,7 +22,7 @@ public class Task1 {
             sum+=arr[i];
 
         }
-        System.out.println("The sum of the numbers you have entered is "+sum);
+        System.out.println("The sum of numbers you have entered is "+sum);
 
     }
 }

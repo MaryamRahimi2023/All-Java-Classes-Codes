@@ -10,16 +10,15 @@ public class Task2 {
             retrieve all values from it and while retrieving those values print capital for each country. (use 2 different loops). */
 
         Scanner scan=new Scanner(System.in);
-        System.out.println("How many countries do you know in South America?");
+        System.out.println("How many South American countries can you name?");
 
         int size= scan.nextInt();
 
         String [] country=new String[size];
 
-        System.out.println("Please enter name of these " +size+" countries:");
+        System.out.print("Please enter name of these " +size+" countries:");
 
         for (int i = 0; i < country.length; i++) {
-            System.out.print("");
             country[i]=scan.next();
         }
         System.out.println(Arrays.toString((country)));
