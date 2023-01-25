@@ -19,6 +19,7 @@ public class StringDemo9 {
             if (Character.isSpaceChar(i));
             counter2++;
         }
+
         System.out.println("Total isAlphabetic in str "+counter);
         System.out.println("Total isDigit in str "+counter1);
         System.out.println("Total isspace in str "+counter2);
