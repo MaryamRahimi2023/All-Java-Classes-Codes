@@ -8,19 +8,15 @@ public class Task2 {
 
         String str="Sunday";
         for (int i = str.length()-1; i >=0; i--) {
-            System.out.print(str.charAt(i)+" ");
+            System.out.print(str.charAt(i));
         }
-
+        System.out.println();
         //2nd way
 
         String str1="Sunday";
         StringBuilder sb=new StringBuilder(str);// object of the class
 
-        System.out.println(sb.reverse().toString());
-
-
-
-
+        System.out.print(sb.reverse().toString());
 
     }
 }

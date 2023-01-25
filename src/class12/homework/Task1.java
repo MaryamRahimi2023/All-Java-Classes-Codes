@@ -11,7 +11,7 @@ public class Task1 {
 */
         String str="happy";
         if(!str.isEmpty()){
-            if(str.length()%2==1 && str.length()>=3){
+            if(str.length()%2==1 && str.length()>3){
                 int middle=str.length()/2;
                 System.out.println(str.charAt(middle));
             }
