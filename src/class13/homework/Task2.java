@@ -10,6 +10,7 @@ public class Task2 {
         String str = "Working 1234 !@# hard";
 
         System.out.println(str.replaceAll("[^a-zA-Z0-9]","").length());
+        // multipart methods in same line it is called method changing
 
 
 
