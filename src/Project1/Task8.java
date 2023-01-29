@@ -4,7 +4,7 @@ public class Task8 {
     public static void main(String[] args) {
 
 /*        8)Write a Java Program to print the first 10 numbers of Fibonacci series.
-            0 1 1 2 3 5 8 13 21 ... */
+            0+1=1+2=3,2+3=5,3+5=8,5+8=13, 21 ... */
 
 
         int num1=0;

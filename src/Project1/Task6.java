@@ -24,6 +24,14 @@ public class Task6 {
 
         System.out.println("*************************");
 
+        // 2nd way
+
+        a=a+b;//15
+        b=a-b;//15-10=5=b=5
+        a=a-b;//15-5=10= a=10
+
+        System.out.println("a= "+a +" b= "+b);// back to first format coz I swap it in 1st way
+
 
 
     }

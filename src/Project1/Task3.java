@@ -21,5 +21,16 @@ public class Task3 {
         }
         System.out.println(sum);
 
+        // 2nd way
+
+        int sum1=0;
+        for (int [] nums:integers) {
+            for (int num:nums) {
+                sum1+=num;
+            }
+
+        }
+        System.out.println(sum1);
+
     }
 }

@@ -12,19 +12,20 @@ public class Task7 {
         int number=scan.nextInt();
 
         boolean isPrimeNumber=true;
+        if (number>1) {
+          for (int i = 2; i < number; i++) {
+             if (number % i == 0) {
+                 isPrimeNumber = false;
+                 break;
+             }
+         }
 
-        for (int i = 2; i < number/2; i++) {
-            if(number%i==0) {
-                isPrimeNumber = false;
-                break;
-            }
+         }else {
+         isPrimeNumber=false;
 
         }
-        if (isPrimeNumber){
-            System.out.println(number+" is a prime number.");
-        }else {
-            System.out.println(number+" is not a prime number.");
-        }
+        System.out.println(number+" is a prime number? "+isPrimeNumber);
+
 
     }
 }
