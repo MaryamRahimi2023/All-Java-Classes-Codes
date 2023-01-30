@@ -4,11 +4,15 @@ public class Task3 {
 
     // 3) Create a method that will print whether given String is palindrome or not.
 
-    boolean isPalindrome(String input){
-        String reversed= new StringBuilder(input).reverse().toString();
-        if(input.equals(reversed)){
-            return true;
-        }else return false;
+    void isPalindrome(String input){
+
+        String reversedStr=new StringBuilder(input).reverse().toString();
+
+        if(input.equals(reversedStr)){
+            System.out.println(input+" Is a Palindrome");;
+        }else {
+            System.out.println(input+" Is not a Palindrome");
+        }
     }
 
 }

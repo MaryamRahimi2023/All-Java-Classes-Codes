@@ -6,7 +6,7 @@ public class Task4Tester {
     public static void main(String[] args) {
 
         Task4 hello=new Task4();
-        System.out.println(hello.input("China"));
+        System.out.println(hello.input("iran"));
 
     }
 }

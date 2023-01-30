@@ -8,7 +8,7 @@ public class Task4 {
 
         switch(country.toLowerCase()){
             case "china":
-                return "hai";
+                return "Ni hao";
             case "iran":
                 return "Salaam";
             case "england":
@@ -16,7 +16,7 @@ public class Task4 {
             case "africa":
                 return "Hallo";
             case "poland":
-                return "witam";
+                return "Witam";
             default:
                 return "Unknown country";
         }

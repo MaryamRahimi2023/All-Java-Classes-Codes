@@ -2,7 +2,7 @@ package class15;
 
 public class Dog {
 
-    String name; // instance variables, inside class outside the methods, will be saved in the memory for a longtime
+    String name; // instance variables, inside class outside the methods, will be saved in the memory for a longer time
     String breed;
     String color;
 

@@ -11,7 +11,7 @@ public class StudentTester {
     public static void main(String[] args) {
 
         Student grades=new Student();
-        System.out.println(grades.getGrade(50));
+        System.out.println(grades.getGrade(55));
 
 
     }
