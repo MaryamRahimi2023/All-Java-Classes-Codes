@@ -7,14 +7,17 @@ public class Task5 {
         // 5) How would you check if String is palindrome or not? aba=> true
         //Abbc =>false
 
-        String str="noon";
+        String str="Noon";
+        boolean check=true;
+        String reversed=new StringBuilder(str.toLowerCase()).reverse().toString();
 
-        String reversed=new StringBuilder(str).reverse().toString();
-
-        if(str.equals(reversed)){
+        if(str.equalsIgnoreCase(reversed)){
+            check=true;
             System.out.println("The String is a palindrome");
         }else {
+            check=false;
             System.out.println("The String is not a palindrome");
         }
+        System.out.println(check);
     }
 }

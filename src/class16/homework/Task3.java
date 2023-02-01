@@ -6,19 +6,14 @@ public class Task3 {
          Method should be available inside the class only where it was declared and executed by calling it is name.
      */
 
-    private String getVowels(String input ){
+    private static String getVowels(String input ){
 
-        String newStr=input.replaceAll("[^aeiou]","");
-
-        return newStr;
-
+        return input.replaceAll("[^AEIOUYaeiouy]","");
     }
 
 
     public static void main(String[] args) {
 
-        Task3 task3=new Task3();
-
-        System.out.println(task3.getVowels("Presentation"));
+        getVowels("Presentation");// we use static to calling the method name.
     }
 }

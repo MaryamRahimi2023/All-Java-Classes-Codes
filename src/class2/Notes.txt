@@ -5,4 +5,5 @@ Java follows some rules for naming things like classes and boxes (Variables)
 
 Perimitive data types:
 
-byte, short, int, long, float, double, char, boolean
+numaric= byte, short, int, long, float, double,
+non numaric= char, boolean

@@ -7,16 +7,15 @@ public class Task2 {
 
     */
 
-    public String str(String input){
+    public static String reversedStr(String input){// instance method are without static word,
+        // with static word we do not need to create an object and then call the method in the other class
 
-        String reversed=new StringBuilder(input).reverse().toString();
-
-        return reversed;
+        return new StringBuilder(input).reverse().toString();
     }
 
     public static void main(String[] args) {
 
-        Task2 string=new Task2();
-        System.out.println(string.str("Monday"));
+        Task2 task2=new Task2();
+        reversedStr("Monday");// if we are with the same class we don't even need class name just write the method name
     }
 }
