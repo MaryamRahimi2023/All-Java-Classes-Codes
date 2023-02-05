@@ -10,7 +10,7 @@ public class StringAddition {
         System.out.println("First name ="+firstName);
         System.out.println("Last name ="+lastName);
 
-        System.out.println("10"+"10");
+        System.out.println("10"+"10");// concatenate
 
         String space=" ";
         System.out.println(firstName+space+lastName);

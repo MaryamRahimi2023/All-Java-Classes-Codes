@@ -12,19 +12,12 @@ public class Car {
     String model;
     String color;
     int year;
+    int count;
 
     void moveForward(){
         System.out.println("Car is moving forward");}
 
     void applyBrakes(){
         System.out.println("Applying the brakes");}
-
-
-
-
-
-
-
-
 
 }

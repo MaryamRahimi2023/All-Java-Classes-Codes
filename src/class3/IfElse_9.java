@@ -11,7 +11,7 @@ public class IfElse_9 {
         String name="Sam"; // String name="Nat"
         // with non-primitive data types such as String we can not use == symbol
         // we use ! if not
-        if(name.equals("Sam")) {
+        if(name.equalsIgnoreCase("sam")) {
             System.out.println("Amazing student");
             // if(!name.equals("Sam"))
 

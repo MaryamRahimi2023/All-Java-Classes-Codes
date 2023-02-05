@@ -9,9 +9,18 @@ public class VariablesDemo_1 {
         System.out.println(salary);
         String name, city, country;//  we can create multiple empty boxes in a single line of code
         name="Maryam";
-        //System.out.println(city);// we get error coz we did not assigned value to the city.
+        city="Phila";
+        country="USA";
+        System.out.println(city);// we get error coz we did not assigned value to the city.
+        System.out.println(country);
         char gender, letter;
         System.out.println(name);
+        gender='F';
+        System.out.println(gender);
+        letter='M';
+        System.out.println(letter);
+
+
 
     }
 }

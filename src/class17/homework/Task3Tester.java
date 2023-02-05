@@ -9,8 +9,10 @@ public class Task3Tester {
 
     public static void main(String[] args) {
 
-        Task3 obj=new Task3('M');// default method
-        Task3 obj2=new Task3(69);// protected method
+        Task3 task1=new Task3("Maryam");
+        //Task3 task2=new Task3(true); private modifiers, can't be called in a different class
+        Task3 task3=new Task3('F');
+        Task3 task4=new Task3(70.45f);
     }
 
 

@@ -11,7 +11,7 @@ public class DecimalNumbers {
 
         char letter= 's';
         char gender='M';
-        char symbol='#';
+        char symbol= '#';
         char numberChar='1';
         // String dta type belongs to a different category called non-primitives
         // that's why for String rules are a little different
@@ -19,10 +19,11 @@ public class DecimalNumbers {
 
         String name="sam";
 
+
         boolean hungry=true; // ture means yes
         boolean sleepy=false; // false means no
         // we can not put yes or no directly it supposed to be true and false
-
+        System.out.println(sleepy);
 
     }
 }

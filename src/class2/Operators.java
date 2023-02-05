@@ -5,7 +5,7 @@ public class Operators {
         String number1="10";
         String number2="20";
 
-       // System.out.println(number1*number2);
+       //System.out.println(number1*number2);
 
         // 10*2=20
         //Sam*car=

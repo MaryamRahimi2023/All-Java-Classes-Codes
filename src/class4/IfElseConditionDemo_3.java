@@ -19,7 +19,7 @@ public class IfElseConditionDemo_3 {
             System.out.println("Some other day than Monday"); // else Block
         }
 
-        day=1;// day=2, day=2, day=3, day=4, day=5, day=6, day=7, day=8
+        day=4;// day=2, day=2, day=3, day=4, day=5, day=6, day=7, day=8
 
         if(day==1){
             System.out.println("Monday");// If Block

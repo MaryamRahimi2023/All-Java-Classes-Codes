@@ -5,14 +5,14 @@ public class IfElseConditions_2 {
 
         boolean rain=true;
         if(rain){
-            System.out.println("Lets take te umbrella");//  Plan A
+            System.out.println("Lets take the umbrella");//  Plan A
         }else {
             System.out.println("Lets just take the hat");// Plan B
         }
 
         rain=false;
         if(rain){
-            System.out.println("Lets take te umbrella");
+            System.out.println("Lets take the umbrella");
         }else {
             System.out.println("Lets just take the hat");
         }

@@ -8,7 +8,7 @@ public class Dog {
 
     static int noOfLegs=4; // static variable, have the word of static with them inside the class outside the method
 
-    void printFood(){
+    void printFood(){// void means empty no return only print
         System.out.println(name);
         String food="Meat";// local variable// inside the class and method, they will destroy soon after executing the codes,
         // we save memory if we use local variables

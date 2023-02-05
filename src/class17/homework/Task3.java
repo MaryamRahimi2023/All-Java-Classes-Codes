@@ -10,20 +10,21 @@ public class Task3 {
     public Task3(String sName){
 
     }
-    private Task3(int sID){
+    private Task3(boolean Smart){
 
     }
     Task3(char sGender){
 
     }
-    protected Task3(double avgMarks){
+    protected Task3(float avgMarks){
 
     }
 
     public static void main(String[] args) {
-
-        Task3 obj=new Task3(1008);// private method
-
+        Task3 task1=new Task3("Maryam");
+        Task3 task2=new Task3(true);// private method only can be called inside the same class
+        Task3 task3=new Task3('F');
+        Task3 task4=new Task3(70.45f);
     }
 
 

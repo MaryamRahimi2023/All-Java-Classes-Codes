@@ -18,6 +18,9 @@ public class RelationalOperators_6 {
         System.out.println(10<=20); // is 10 less than or equal to 20 , <= less than or 20
         System.out.println(10<=10); // is 10 less than 10 or equal to 10, either one is true we get true
 
+
+
+
     }
 
 

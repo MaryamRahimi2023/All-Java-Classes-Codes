@@ -17,6 +17,7 @@ public class IfElse_10 {
             if (!notHungry) {
                 System.out.println(hungry);
                 System.out.println(notHungry);
+
             }
             if (!hungry) {
                 System.out.println(notHungry);
