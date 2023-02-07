@@ -10,39 +10,39 @@ public class TeacherTester {
         pianoTeacher obj4=new pianoTeacher();
 
         System.out.println("______________________");
-        System.out.println(obj1.name);
-        System.out.println(obj1.age);
+        obj1.name="Nasir";
+        obj1.age=30;
         obj1.scream();
         System.out.println(obj1.eat("Sandwich"));
         obj1.homeWork();
         System.out.println(obj1.helpWithHomework("yes"));
 
         System.out.println("____________________________");
-        System.out.println(obj2.name);
-        System.out.println(obj2.age);
+        obj2.name="Muna";
+        obj2.age=27;
         obj2.scream();
-        System.out.println(obj2.eat("Burger"));
+        obj2.eat("Burger");
         obj2.homeWork();
-        System.out.println(obj2.helpWithHomework("yes"));
-        System.out.println(obj2.alwaysPresent);
+        obj2.helpWithHomework("yes");
+        obj2.alwaysPresent=true;
 
         System.out.println("____________________________");
-        System.out.println(obj3.name);
-        System.out.println(obj3.age);
+        obj3.name="Huma";
+        obj3.age=40;
         obj3.scream();
         System.out.println(obj3.eat("Pasta"));
         obj3.homeWork();
         System.out.println(obj3.helpWithHomework("yes"));
-        System.out.println(obj3.angry);
+        obj3.angry=true;
 
         System.out.println("____________________________");
-        System.out.println(obj4.name);
-        System.out.println(obj4.age);
+        obj4.name="Mina";
+        obj4.age=30;
         obj4.scream();
         System.out.println(obj4.eat("Peanut"));
         obj4.homeWork();
         System.out.println(obj4.helpWithHomework("no"));
-        System.out.println(obj4.teaches);
+        obj4.teaches="hard";
 
     }
 }
