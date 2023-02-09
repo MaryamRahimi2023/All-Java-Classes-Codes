@@ -3,7 +3,7 @@ Helps use take the input from keyboard.
 Logical Operators:
 Just another set of symbols that we can use to combine multiple
 boolean values. There are logical
-operators ! || &&
+operators !not ||OR operator && And operator
 Why should we learn about the logical operators?
 we can greatly simplify th
 e logic if we use these operators

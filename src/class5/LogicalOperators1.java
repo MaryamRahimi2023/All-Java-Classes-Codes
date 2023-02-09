@@ -12,6 +12,7 @@ public class LogicalOperators1 {
 
         boolean boughtCho=true;
         boolean boughtFlowers=true;
+
         if(boughtCho||boughtFlowers){
             System.out.println("I am Happy");
         }else{
@@ -21,7 +22,7 @@ public class LogicalOperators1 {
         boolean wifi=true;
         boolean fiveG=true;
 
-        if (wifi || fiveG) {
+        if (!wifi || !fiveG || boughtCho || boughtFlowers) {
             System.out.println("You are good for browsing the internet");
         }else {
             System.out.println("Either connect to wifi or to 5G");

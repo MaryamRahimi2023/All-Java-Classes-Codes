@@ -9,7 +9,7 @@ public class Employee {
 
     String name;
     int empID;
-    private short empSalary;
+    short empSalary;
 
     void weekdays(){
         System.out.println("I am tired");

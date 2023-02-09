@@ -10,5 +10,6 @@ public class ArraysDemo8 {
             System.out.print(letters[i]);
 
         }
+
     }
 }

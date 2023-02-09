@@ -7,9 +7,9 @@ public class LogicalOperators {
 
  // 1 2 3 4 5 6 7 8 9 10   15, ! means not logical not operation
 
+        boolean rich=true;
         System.out.println(!true);
         System.out.println(!false);
-        boolean rich=true;
         System.out.println(!rich);
        int number=9;
         if(number!=1)

@@ -1,0 +1,5 @@
+Constructors help us to give initial value.
+If our method requires any instance variable filed we can not do it static but if it does not depend on instance variable we can create it static but, we can re declear them.
+If a method is static we call we re-declear them not overriding them.
+
+method name + method parameters are called method signature.

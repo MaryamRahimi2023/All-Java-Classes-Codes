@@ -16,17 +16,17 @@ public class LogicalOperatorsExmp {
             System.out.println("I don't know you");}
 
         boolean isTrue=false;
-        if(!isTrue){
-            System.out.println(" You got it");
+        if(!isTrue){// true
+            System.out.println("You got it");
         }else {
             System.out.println("Need more practice");}
 
         boolean cond=false;
-        boolean condition=!cond;
+        boolean condition=!cond;// true
         System.out.println(condition);
 
         if(condition){
-            System.out.println(" You got it");
+            System.out.println("You got it");
         }else {
             System.out.println("Need more practice");
         }

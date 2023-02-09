@@ -14,9 +14,9 @@ public class LogicalOperators2 {
 
         double mathScore=92.5;
         double historyScore=91.5;
-        double scienceScore=93.5;
+        double scienceScore=83.5;
 
-        if(mathScore>90.&&historyScore>90&&scienceScore>90){
+        if(mathScore>90 && historyScore >90 && scienceScore>90){
 
             System.out.println("You are a brilliant student");
         }else{
@@ -31,7 +31,7 @@ public class LogicalOperators2 {
                 if(scienceScore>90){
                     System.out.println("You are a brilliant Student");
                 }else{
-                    System.out.println("You need work harder is Science");
+                    System.out.println("You need work harder with Science");
                 }
             }else{
                 System.out.println("You need work harder in history");
