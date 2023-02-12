@@ -56,11 +56,12 @@ class HP extends Computer{
 class Dell extends Computer{
     @Override
     public void processAndStoreData() {
-        super.processAndStoreData();
+        System.out.print("Dell PC is able to process and store data");
+
     }
 
     @Override
     public void followInstructions() {
-        super.followInstructions();
+        System.out.println("Dell PC is able to follow the instructions and provide you the result");
     }
 }
