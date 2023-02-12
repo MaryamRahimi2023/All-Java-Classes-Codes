@@ -9,6 +9,7 @@ public class WhileLoopDemo3 {
         int sum=0;
         while (number<=5){
             sum=sum+number;
+            System.out.println(number);
             number++;
         }
         System.out.println(sum);

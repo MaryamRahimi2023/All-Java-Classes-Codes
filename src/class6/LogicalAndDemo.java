@@ -15,7 +15,7 @@ public class LogicalAndDemo {
         boolean understandJava1=false;
         boolean enjoyJava1=true;
 
-        if(understandJava&&enjoyJava){
+        if(understandJava&&enjoyJava){//false
             System.out.println("You get the Job Quickly");
         }else {
             System.out.println("We need to work hard");

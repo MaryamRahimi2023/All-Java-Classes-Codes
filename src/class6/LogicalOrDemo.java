@@ -7,7 +7,7 @@ public class LogicalOrDemo {
 
         Scanner input= new Scanner(System.in);
         System.out.println("Please enter the day to know about the class schedule");
-        String day= input.next();
+        String day= input.next(); //!, && ,|| false false
 
         //String day="Monday";
 

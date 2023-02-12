@@ -2,6 +2,8 @@ package class21;
 
 public class Employee {
 
+    /* need the question from the slides */
+
     String name;
    static int baseSalary=30000;
    static int baseHolidays=10;

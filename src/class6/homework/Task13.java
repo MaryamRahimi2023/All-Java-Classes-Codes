@@ -14,6 +14,7 @@ public class Task13 {
             number++;
             }
         System.out.println("");
+
         int number1=21;
         while (number1<50) {
             System.out.print(number1+" ");

@@ -4,9 +4,9 @@ package class6;
 public class WhileLoop {
     public static void main(String[] args) {
 
-        // System.out.println("Hello World"); // if we want to print this code 100000 times, so we use loops
-       // System.out.println("Hello World");// we ask the loop to print this code 10 times
-        // System.out.println("Hello World");
+        /*System.out.println("Hello World"); // if we want to print this code 100000 times, so we use loops
+        System.out.println("Hello World");// we ask the loop to print this code 10 times
+        System.out.println("Hello World");*/
 
         int number=1;
         if(number<3){
@@ -23,19 +23,19 @@ public class WhileLoop {
         }
 
         int number1=0;
-        if(number<3){
+        if(number1<3){
             System.out.println("Hello World");
         }
-        number++;// increment the value of variable by 1
-        if(number<3){
-            System.out.println("Hello World");// to comment all codes ctr sfit /
+        number1++;// increment the value of variable by 1
+        if(number1<3){
+            System.out.println("Hello World");// to comment all codes ctr shfit /
         }
 
-        number++;
-        if(number<3){
+        number1++;
+        if(number1<3){
             System.out.println("Hello World");
         }
-// for loop
+// while loop
         int number2=0;
         while (number2<3){
             System.out.println("Hello World");
@@ -47,7 +47,7 @@ public class WhileLoop {
         int number3=0;
         while (true) {// keeps on checking the condition as along as it returns true
             System.out.println("Hello World");
-            number2++;// increment the numbers by one
+            number3++;// increment the numbers by one
 
         }
         // if we write number2++ outside the bracket of the loop then we get hello world text running forever

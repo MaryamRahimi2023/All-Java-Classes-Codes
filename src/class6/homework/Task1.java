@@ -17,7 +17,7 @@ public class Task1 {
         
         if(height<60){
             System.out.println("Short");
-        } else if (height>=60 && height<=72){
+        } else if (height>=60 && height<=72){//
             System.out.println("Average");
         } else if (height>72){
             System.out.println("Tall");

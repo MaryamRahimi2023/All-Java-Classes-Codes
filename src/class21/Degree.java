@@ -2,7 +2,7 @@ package class21;
 
 public class Degree {
 
-    /* */
+    /* need the question from the slides */
 
     void getPrerequisite(){
         System.out.println("To get a degree you need high school diploma");

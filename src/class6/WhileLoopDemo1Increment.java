@@ -5,7 +5,7 @@ public class WhileLoopDemo1Increment {
     public static void main(String[] args) {
 
         // write a loop to print numbers from 1 to 100
-        // write a loop to print odd numbers from 1 to 15
+        // write a loop to print odd numbers from 1 to 15, even 2,4,6,8 ----odd 3,5,7,
         // write a loop to print these number 5,10,15,20,25,30.... 50
 
         int number=1;
