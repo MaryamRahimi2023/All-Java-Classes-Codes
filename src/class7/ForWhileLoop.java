@@ -26,7 +26,7 @@ public class ForWhileLoop {
 
         // prints odd number from 1-20
 
-        for(int n=1; n<20; n+=2){
+        /*for(int n=1; n<20; n+=2){
             System.out.print(n+" ");}
 
         System.out.println("*************************************");
@@ -37,7 +37,7 @@ public class ForWhileLoop {
                  System.out.print(m+" ");
              }
          }
-
+*/
 
         }
 }

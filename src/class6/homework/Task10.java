@@ -8,7 +8,7 @@ public class Task10 {
 
         int number=1;
 
-        while(number<=100){
+        while(number<=1){
             System.out.print(number+" ");
             number++;
             }

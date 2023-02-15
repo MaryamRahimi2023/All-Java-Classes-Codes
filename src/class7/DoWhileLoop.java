@@ -14,10 +14,10 @@ public class DoWhileLoop {
 
 
         int number1=0;
-        while(number1!=5){
+        while(number1!=5) {
             System.out.println("Please enter a number:");// this line will not print if the condition not meets in while loop
-            number1=scan.nextInt();
-
+            number1 = scan.nextInt();
         }
+
     }
 }
