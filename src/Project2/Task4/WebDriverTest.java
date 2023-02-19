@@ -29,7 +29,7 @@ public class WebDriverTest {
 
         for (TakesScreenshot webDriver3:webDrivers4) {
 
-            webDriver3.getScreenshot(); // only it its own method is available
+            webDriver3.getScreenshot(); // only its own method is available
         }
 
     }
