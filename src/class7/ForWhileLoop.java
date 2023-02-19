@@ -26,18 +26,18 @@ public class ForWhileLoop {
 
         // prints odd number from 1-20
 
-        /*for(int n=1; n<20; n+=2){
+        for(int n=1; n<20; n+=2){
             System.out.print(n+" ");}
 
         System.out.println("*************************************");
          // 2nd way
 
-         for(int m=0; m<20; m++) {
+        for(int m=0; m<20; m++) {
              if (m % 2 != 0) {
                  System.out.print(m+" ");
              }
          }
-*/
+
 
         }
 }

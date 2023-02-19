@@ -8,6 +8,8 @@ public class ForWhileLoop4 {
             if(i%3!=0){// this condition divides all the numbers by 3 and check if the reminder is not zero
             System.out.print(i+" ");}
 
+            // 3,6,9,12,15,18 *3
+
         }
 
 

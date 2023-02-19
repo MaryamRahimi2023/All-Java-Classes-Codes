@@ -9,13 +9,10 @@ public class MovAbleTester {
 
     public static void main(String[] args) {
 
-        MovAble[] movAbles={new Car(),new Dog()};
-        for (MovAble movAable:movAbles) {
-            movAable.move();}
-
         OwnAble[] ownAbles={new Car(),new Dog()};
         for (OwnAble ownAble:ownAbles) {
             ownAble.Own();
+            ownAble.move();
         }
     }
 }

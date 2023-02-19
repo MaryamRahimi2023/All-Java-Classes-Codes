@@ -20,8 +20,8 @@ public class ComputerTeacherSolved {
 
             // if we need to call the instance variable and variables of the child class
 
-            if(computer instanceof Apple1){ // we are checking if the variable c contains the object of an Apple class
-                Apple1 apple=(Apple1)computer; // converting the variable c back to an apple object
+            if(computer instanceof Apple1){ // we are checking if the variable computer contains the object of an Apple class
+                Apple1 apple=(Apple1)computer; // converting the variable computer back to an apple object
                 apple.installApp();
                 apple.editVideos();
                 System.out.println(apple.OS="seven");

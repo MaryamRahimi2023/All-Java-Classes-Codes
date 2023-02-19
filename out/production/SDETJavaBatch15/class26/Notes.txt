@@ -1,0 +1,16 @@
+
+Java is 99.9%  Object oriented programing language because of the (like Strings which we can call reference data types)
+and only not 0.01% because of the premative datatype that are not object and drived from class
+which are int, char, float, boolean, {Integer, Byte ... etc (wrapper classes)}
+
+class wrapper:
+Overall, while it's not possible to directly use primitives as reference types, you can use wrapper classes
+to convert them to objects and access methods and properties that are only available for objects.
+
+Autoboxing converting primitive in to object : Integer num1=10; also called Boxing
+outboxing getting the primitive value from object: int num2=num1;num2.intValue();
+
+wrapper classes are the way to use primitives as a reference type
+to use function that is available
+To convert primitive data to the object
+converts primitives to reference values to get methods accessible,
