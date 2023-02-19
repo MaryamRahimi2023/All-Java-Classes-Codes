@@ -18,7 +18,7 @@ interface RemoteWebDriver extends WebDriver,TakesScreenshot{
 
     void getScreenshot();
 }
-class ChromeDriver implements WebDriver,RemoteWebDriver,TakesScreenshot{
+class ChromeDriver implements RemoteWebDriver{
 
     @Override
     public void open() {
