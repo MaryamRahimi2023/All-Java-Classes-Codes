@@ -11,12 +11,12 @@ public interface WebDriver {
 }
  interface TakesScreenshot {
 
-    void navigate();
+     void getScreenshot();
 
 }
 interface RemoteWebDriver extends WebDriver,TakesScreenshot{
 
-    void getScreenshot();
+     void navigate();
 }
 class ChromeDriver implements RemoteWebDriver{
 
