@@ -10,13 +10,20 @@ public class CarTest {
 
             // or creating object separately is the 2nd way
 
-           /* Sedan sedan=new Sedan(7000,"Black",17);
+            /*
+            Sedan sedan=new Sedan(7000,"Black",17);
+
             System.out.println("Sedan Price "+sedan.calculateSalePrice());
+            System.out.println(sedan.carPrice);
+            System.out.println(sedan.color);
+            System.out.println(sedan.length);
 
             Truck truck=new Truck(8000,"Red",2200);
-            System.out.println("Truck Price "+truck.calculateSalePrice());*/
-
-
+            System.out.println("Truck Price "+truck.calculateSalePrice());
+            System.out.println(truck.carPrice);
+            System.out.println(truck.color);
+            System.out.println(truck.weight);
+            */
 
         }
     }

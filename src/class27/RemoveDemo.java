@@ -33,7 +33,7 @@ public class RemoveDemo {
 
         // we have a shorter way but, not work in java 7
 
-        words.removeIf(s -> s.endsWith("a"));
+        words.removeIf(s -> s.endsWith("a"));// lambda expression
         System.out.println(words);
 
     }

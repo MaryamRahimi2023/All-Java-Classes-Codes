@@ -41,9 +41,9 @@ class Sedan extends Car {
     }
 }
 
-    class Truck extends Car {
+class Truck extends Car {
 
-      double weight;
+        double weight;
 
         public Truck(double carPrice, String color, double weight) {
             super(carPrice, color);
@@ -58,7 +58,7 @@ class Sedan extends Car {
                 return carPrice + 0.8;
             }
         }
-    }
+}
 
 
 

@@ -8,19 +8,23 @@ public class WebDriverTest {
         RemoteWebDriver [] webDrivers = {new ChromeDriver(), new FirefoxDriver(), new SafariDriver()};
 
         for (RemoteWebDriver webDriver:webDrivers) {
+
             webDriver.open();
             webDriver.close();
-            webDriver.getTitle();
             webDriver.navigate();
             webDriver.getScreenshot();
+            System.out.println(webDriver.getTitle());
+            System.out.println("********************");
         }
 
         WebDriver [] webDrivers1= {new ChromeDriver(), new FirefoxDriver(), new SafariDriver()};
 
         for (WebDriver webDriver2:webDrivers1) {
+
             webDriver2.open();
             webDriver2.close();
-            webDriver2.getTitle();
+            System.out.println(webDriver2.getTitle());
+
            // webDriver2.navigate(); these methods are not available if we Create the object of the classes and store it in to WebDriver data type
            // webDriver2.getScreenshot();
         }
