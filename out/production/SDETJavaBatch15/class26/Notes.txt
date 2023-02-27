@@ -3,7 +3,12 @@ Java is 99.9%  Object oriented programing language because of the (like Strings 
 and only not 0.01% because of the premative datatype that are not object and drived from class
 which are int, char, float, boolean, {Integer, Byte ... etc (wrapper classes)}
 
-class wrapper:
+collection framework: group of class and interfaces with undefined methods which we can implement
+ which  help  in  storing  and processing the data efficiently.
+list provide grow in collections during the run time. List is an interface and have implementation class which are ArrayList,Linklist,vector,stack
+ArrayList is a part collection framework and wrapper classes as well
+
+class wrapper: we use this with ArrayList coz can not store primitive type there
 Overall, while it's not possible to directly use primitives as reference types, you can use wrapper classes
 to convert them to objects and access methods and properties that are only available for objects.
 

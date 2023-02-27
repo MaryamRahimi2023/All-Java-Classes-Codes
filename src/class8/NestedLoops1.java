@@ -8,11 +8,11 @@ public class NestedLoops1 {
            2 3 4 5
          */
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i <=2; i++) {
             for (int j = i; j <= 5; j++) {
-                System.out.print("      "+j+" ");
+                System.out.print(j+" ");
             }
-            System.out.println("        ");
+            System.out.println();
         }
 
     }

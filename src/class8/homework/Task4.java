@@ -14,7 +14,7 @@ public class Task4 {
 
         Scanner input=new Scanner(System.in);
         double total=0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i <= 5; i++) {
 
             System.out.println("Please enter an item you would like to purchase: ");
             String Item = input.next();
@@ -22,6 +22,7 @@ public class Task4 {
             double price = input.nextDouble();
             total=total+price;
             System.out.println("Your Total is " + total);
+
         }
         System.out.println("Please enter the amount you would like to pay? ");
         double EnteredAmount= input.nextDouble();

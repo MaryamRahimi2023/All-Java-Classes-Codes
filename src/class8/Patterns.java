@@ -14,9 +14,13 @@ public class Patterns {
 
         for (int h = 0; h < 3; h++) {
             for (int g = 0; g < 5; g++){
+                //System.out.println("g"+g);
                 if (h == 1 || h == 2) {
                     continue;// two iterations are skipped
+
                 }System.out.print("$ ");
+                //System.out.println("h"+h);
+
             }
         }System.out.println();
 

@@ -11,6 +11,7 @@ public class ContinueKeywordDemo1 {
                 // when it sees the continue it get backs to the loop and continue printing the codes until target is achieved.
                 // break will stop righaway and will not print anything anymore when it sees break
                 // but in continue will continue until the target is archived like printing until 10 times
+
             }else {
                 System.out.println(i);
 
@@ -19,6 +20,7 @@ public class ContinueKeywordDemo1 {
 
 
         }
+
 
     }
 }

@@ -1,5 +1,5 @@
 Constructor - block of code similar to a method
-              hat is executed when we create an Object.
+              it is executed when we create an Object.
 
 Why do we need it? - constructor initializes the object
 

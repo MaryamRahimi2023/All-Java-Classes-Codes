@@ -7,9 +7,11 @@ public abstract class Insurance {
           Create 3 objects of the sub classes and store them in ArrayList. Using for loop/advanced for loop/ iterator access all methods of the class.
      */
 
-    public static final String insuranceName="AAA";
+    public static final String insuranceName="AAA";// we can do a constructor for this do to initialize its  object
     public abstract void getQuote();
     public abstract void cancelInsurance();
+
+
 }
 class Car extends Insurance{
     String carModel;

@@ -20,10 +20,16 @@ public class Task4 {
             if(drink.contains("a")|| drink.contains("e")) {
                 drinks.set(drinks.indexOf(drink), "Water");
             }
-            
         }
         System.out.println("After replacing"+drinks);
 
+        for (int i = 0; i < drinks.size(); i++) {
+            String drink1 = drinks.get(i);
+            if(drink1.contains("a")|| drink1.contains("e")) {
+                drinks.set(i,"water");// replacing
+            }
+        }
+        System.out.println(drinks);
 
     }
 }

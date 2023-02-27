@@ -24,7 +24,6 @@ public class Task1 {
 
         System.out.println(names);
 
-
         for (String name:names) {
             System.out.print(name+",");
 

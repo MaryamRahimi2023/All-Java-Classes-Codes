@@ -20,7 +20,7 @@ public class RecapDemo {
         }while (number1>=2);
 
         for (int i = 10; i >=2 ; i-=2) {
-            System.out.println(i);
+            System.out.println(i);}
 
             // example from Repil
 
@@ -35,4 +35,4 @@ public class RecapDemo {
         }
 
     }
-}
+

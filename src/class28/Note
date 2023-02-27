@@ -1,0 +1,20 @@
+Iterator:
+ is an interface if you want to remove add something or planing to do an operation which can change the size of a list at run time
+ than we should use iterator.
+
+ In Java, an Iterator is an interface that is used to traverse (iterate over) a collection of objects, such as ArrayList, HashSet, or LinkedList.
+ An Iterator allows you to loop over the elements in a collection and perform operations on them, such as removing or adding elements.
+ The Iterator interface provides methods for checking if there are more elements in the collection (hasNext()), retrieving the next element in the
+ collection (next()), and removing the current element from the collection (remove()).
+
+Sets like HashSet,LinkedHashSet and TreeSet don't allow duplicate values. There are three main types of Sets
+HashSet:
+    Upside:Fast
+    Downside: Does not retain the insertion order
+LinkedHashset:
+    Upside: Retains the insertion order.
+    Downside: it's slower than HashSet.
+TreeSet:
+    Upside:it keeps the data sorted
+    Downside: it's the slowest.
+

@@ -12,5 +12,8 @@ public class LoopWithString {
             // the name sha print the below codes if not sha do not print
             System.out.println("Great student who always wanted an example with String in loop");
         }
+        System.out.println("wrong entry");
+
+
     }
 }
