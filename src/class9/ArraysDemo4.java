@@ -9,7 +9,6 @@ public class ArraysDemo4 {
         letters[0] = 'z';// updating the elements at index 0
         for (int i = 0; i < letters.length; i++) {
             System.out.println(letters[i]);
-
         }
 
     }

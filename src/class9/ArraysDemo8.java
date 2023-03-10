@@ -5,9 +5,10 @@ public class ArraysDemo8 {
 
         // I Love Java
         char[] letters={'I',' ','L','o','v','e',' ','J','a','v','a'};
+        char [] shahab={'I',' ','L','o','v','e',' ','S','h','a','h','a','b'};
 
-        for (int i = 0; i < letters.length; i++) {
-            System.out.print(letters[i]);
+        for (int i = 0; i < shahab.length; i++) {
+            System.out.print(shahab[i]);
 
         }
 

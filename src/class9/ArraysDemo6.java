@@ -3,7 +3,7 @@ package class9;
 public class ArraysDemo6 {
     public static void main(String[] args) {
 
-       // create an empty array and store 45 44 33 20 and 10 in it then use a loop to add all the
+        // create an empty array and store 45 44 33 20 and 10 in it then use a loop to add all the
         // elements which are present in even indexes and print after adding
 
         int[] numbers=new int [5];
@@ -18,6 +18,7 @@ public class ArraysDemo6 {
             // sum+=numbers[i] give us the total of all numbers
             if (i%2==0){// only the indexes which are multiple of 2 will process here not the numbers which are multiple of 2
                 sum+=numbers[i];
+                System.out.println(numbers[i]);
             }
         }System.out.println(sum);
 
@@ -32,7 +33,9 @@ public class ArraysDemo6 {
             // sum+=numbers[i] give us the total of all numbers
             if (arr[i]%2==0){// here the inside value of the arrays if multiply by 2 will be added
                 Sum+=arr[i];
+                System.out.println(arr[i]);
             }
-        }System.out.println(Sum);
+        }System.out.println("Total "+Sum);
+
     }
 }

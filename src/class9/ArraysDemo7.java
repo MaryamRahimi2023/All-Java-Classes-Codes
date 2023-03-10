@@ -9,7 +9,9 @@ public class ArraysDemo7 {
         for (int i = 0; i < arr.length; i++) {// length means we want to go till the last element
             if(arr[i]==10.5){
                 sum++;
+                System.out.println(arr[i]);
             }
+
         }
         System.out.println(sum);
 

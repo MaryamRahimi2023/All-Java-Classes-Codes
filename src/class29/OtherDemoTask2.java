@@ -15,7 +15,7 @@ public class OtherDemoTask2 {
 
             var values=countries.values();
             for (var value:values) {
-                System.out.println(value);
+                System.out.println(value.toUpperCase());
             }
             System.out.println("____________________________");
             var iterator=countries.values().iterator();

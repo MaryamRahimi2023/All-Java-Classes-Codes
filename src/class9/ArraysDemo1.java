@@ -13,6 +13,8 @@ public class ArraysDemo1 {
 
         String [] names={"Slava","Safi","Jason","Nabi","Anees","Joseph"};
         // writing a loop to prints all the name
+        //System.out.println(names.length);
+        System.out.println(names);
         System.out.println(names.length);
         for (int i = 0; i < names.length; i++) {// replace from top line the names.length in below line in order to get all name length we have
             System.out.println(names[i]);
