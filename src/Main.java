@@ -35,5 +35,15 @@ public class Main {
         System.out.println();
         System.out.println("Your Purchase total : "+totalPurchase);
     }
+    /*Scanner scan=new Scanner(System.in);
 
+                System.out.println("Please enter your username:");
+    String str = scan.next();
+                try {
+        if(str.equals("Maryam.Rahimi"))
+            System.out.println("Please enter your password:");
+    }catch(InputMismatchException usernameInvalid){
+        System.out.println("Username is not valid");
+        System.out.println("Please try again");
+*/
 }
